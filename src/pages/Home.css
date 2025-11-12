@@ -1,0 +1,61 @@
+.Home-h1{
+    width: 650px;
+    font-size: 80px;
+    font-weight: 600;
+    margin-left: 50px;
+}
+
+.rose-div{
+    background-color: #EEC0C0 ;
+    width: 509px;
+    height: 60px;
+    margin-left: 50px;
+    margin-bottom: 0px;
+    padding-left: 21px;
+}
+
+.black-div{
+    background-color: #000000 ;
+    width: 530px;
+    height: 120px;
+    margin-left: 50px;
+    margin-top: 0px;
+}
+
+.cmd-div{
+    display: flex;
+    flex-direction: column;
+}
+
+.cmd-p{
+    color: white;
+    padding-top: 5px;
+    text-align: justify;
+    width: 480px;
+    padding-left: 21px;
+    
+}
+
+.Start-btn{
+    width: 200px;
+    margin-left: 50px;
+    margin-top: 30px;
+    height: 35px;
+    padding-left: 0px;
+    background-color: #EEC0C0;
+    border: none;
+}
+
+.Link-btn{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-family: "exo 2";
+    
+}
+
+.arrow{
+    background-image: url('/Arrow.jpg');
+    width: 67px;
+    height: 10px;
+}

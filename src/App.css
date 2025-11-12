@@ -1,0 +1,16 @@
+/* .app-cont{
+  background-image: url('/quizzPic.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 50%;
+  height: 500px;
+  position: fixed;
+  right: 0;
+} */
+
+.app-img{
+  width: 50%;
+  height: 500px;
+  position: fixed;
+  right:  0;
+}
