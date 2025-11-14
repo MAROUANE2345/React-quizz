@@ -49,6 +49,12 @@ const Result = () => {
 
 
             <section ref={AgainSection} className='playAgain'>
+                <div className='again-photo'>
+           
+                </div>
+                <br />
+                <div className='doYouWant'>Do you want to play Again ?</div>
+                <br />
                   <div className='goAgain'>
                     <button onClick={() => GoToQuizz()}>Go Again</button>
                   </div>

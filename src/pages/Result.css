@@ -90,19 +90,32 @@
 }
 
 .playAgain{
-    padding-top: 50vh;
+    padding-top: 20vh;
     padding-bottom: 50vh;
 }
 
+.again-photo{
+    background-image: url('/imageAgain.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 100px;
+    margin-left: 567px;
+}
 .goAgain{
     text-align: center;
      
 
 }
 
+.doYouWant{
+    color: black;
+    margin-left: 530px;
+}
+
 .goAgain button{
     border: none;
-    border-radius: 20px;
+    border-radius: 0px;
     width: 100px;
     height: 50px;
     cursor: pointer;
