@@ -1,18 +1,110 @@
 .result-page{
-    height: 100vh;
-}
-
-.score{
     display: flex;
     justify-content: space-between;
-}
 
+}
 
 .image1 {
   width: 20%;
   height: 100vh;
   background-color: aqua;
-  clip-path: path("M0,0 C80,100 80,200 0,300 C80,400 80,500 0,600 L0,100vh L300,100vh L300,0 Z");
-  position: absolute;
-  left: 0;
+  clip-path: polygon(
+    0 0,
+    100% 0,
+    100% 10%,
+    95% 15%,
+    90% 20%,
+    85% 25%,
+    82% 30%,
+    85% 35%,
+    90% 40%,
+    95% 45%,
+    100% 50%,
+    100% 60%,
+    95% 65%,
+    90% 70%,
+    85% 75%,
+    82% 80%,
+    85% 85%,
+    90% 90%,
+    95% 95%,
+    100% 100%,
+    0 100%
+  );
+  
+}
+
+.image2 {
+  width: 20%;
+  height: 100vh;
+  background-color: aqua;
+  clip-path: polygon(
+    0 0,
+    100% 0,
+    100% 100%,
+    0 100%,
+    0 95%,
+    5% 90%,
+    10% 85%,
+    15% 80%,
+    18% 75%,
+    15% 70%,
+    10% 65%,
+    5% 60%,
+    0 50%,
+    0 45%,
+    5% 40%,
+    10% 35%,
+    15% 30%,
+    18% 25%,
+    15% 20%,
+    10% 15%,
+    5% 10%,
+    0 5%
+  );
+   
+}
+
+
+.score-div{
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+   align-items: center;
+   justify-content: center;
+}
+
+
+.score{
+
+}
+
+.Agree{
+   border: none;
+   background-color: aqua;
+   color: rgb(0, 0, 0);
+   width: 100px;
+   height: 50px;
+   cursor: pointer;
+   border-radius: 20px;
+}
+
+.playAgain{
+    padding-top: 50vh;
+    padding-bottom: 50vh;
+}
+
+.goAgain{
+    text-align: center;
+     
+
+}
+
+.goAgain button{
+    border: none;
+    border-radius: 20px;
+    width: 100px;
+    height: 50px;
+    cursor: pointer;
+    background-color: aqua;
 }

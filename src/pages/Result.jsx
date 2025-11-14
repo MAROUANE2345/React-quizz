@@ -1,29 +1,59 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { useParams } from 'react-router-dom';
 import './Result.css'
+import { useNavigate } from 'react-router-dom';
+import { useRef } from 'react';
+import { useEffect } from 'react';
+
 const Result = () => {
+    const AgainSection = useRef(null)
+
+    const navigate = useNavigate()
+
+   
+
     const {score} = useParams()
+
+    const GoToAgain = (AgainSection) => {
+        AgainSection.current.scrollIntoView({  behavior: "smooth", });
+    }
+    const GoToQuizz = () => {
+        navigate('/quizz')
+    }
+    const [message, setMessage] = useState("")
+    useEffect(() => {
+        if(score <= 5){
+           setMessage('your bad')
+        }else if(score > 5 && score <= 7){
+            setMessage('not bad')
+        }else if(score > 7 && score <= 10){
+            setMessage('your good')
+        }
+    })
     return (
+        <>
         <div className='result-page'>
-            <section className='score'>
+            
                   <div className='image1'></div>
 
 
                   <div className='score-div'>
-                      <h3>aaaa</h3>
-
-                      <button>test</button>
+                       <h2>{message}</h2>
+                       <h1 className='score'>Your Score is {score}</h1>
+                       <button className='Agree' onClick={() => GoToAgain(AgainSection)}>Agree</button>
                   </div>
 
 
-                  <div className='image2'>image2</div>
+                  <div className='image2'></div>
+       </div>   
+
+
+            <section ref={AgainSection} className='playAgain'>
+                  <div className='goAgain'>
+                    <button onClick={() => GoToQuizz()}>Go Again</button>
+                  </div>
             </section>
-
-
-            <section className='playAgain'>
-
-            </section>
-        </div>
+       </> 
     );
 }
 
