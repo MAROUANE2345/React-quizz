@@ -23,11 +23,11 @@ const Result = () => {
     const [message, setMessage] = useState("")
     useEffect(() => {
         if(score <= 5){
-           setMessage('your bad')
+           setMessage('You’re still at the starting line')
         }else if(score > 5 && score <= 7){
-            setMessage('not bad')
+            setMessage('You’re no longer a beginner')
         }else if(score > 7 && score <= 10){
-            setMessage('your good')
+            setMessage('You’re a solid React developer')
         }
     })
     return (
