@@ -1,0 +1,31 @@
+footer{
+    background-color: aqua;
+    height: 150px;
+    width: 100%;
+    /* position: absolute;
+    bottom: 0; */
+}
+
+footer h4{
+     height: 1px;
+}
+
+.main-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.info-div{
+    display: flex;
+    flex-direction: column;
+     
+   
+}
+
+.para-div{
+    display: flex;
+    gap: 10px;
+    
+}

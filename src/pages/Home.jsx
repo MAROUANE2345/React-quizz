@@ -15,6 +15,11 @@ const Home = () => {
           </div>
 
           <button className='Start-btn'><Link className='Link-btn' to="/quizz">Start Quizz <span className='arrow'></span></Link></button>
+          
+
+          <div className='div-pic'>
+
+          </div>
            
         </div>
     );

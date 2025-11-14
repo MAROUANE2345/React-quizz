@@ -1,0 +1,18 @@
+.result-page{
+    height: 100vh;
+}
+
+.score{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.image1 {
+  width: 20%;
+  height: 100vh;
+  background-color: aqua;
+  clip-path: path("M0,0 C80,100 80,200 0,300 C80,400 80,500 0,600 L0,100vh L300,100vh L300,0 Z");
+  position: absolute;
+  left: 0;
+}
