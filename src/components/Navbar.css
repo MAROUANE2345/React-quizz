@@ -1,31 +1,25 @@
-.nav-cont{
-    display: flex;
-    flex-wrap: wrap;
-    align-items: start;
-    gap: 100px;
-    margin-left: 50px;
-    padding-top: 15px;
-    background-color: transparent;
-    z-index: 999;
-    position: relative;
+.nav-cont {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: start;
+  gap: 100px;
+  margin-left: 50px;
+  padding-top: 15px;
+  background-color: transparent;
+  z-index: 999;
+  position: relative;
 }
 
 .logo {
-  background-image: url('/logo.jpg');
+  background-image: url("/logo.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   width: 35px;
   height: 35px;
- 
-   
 }
 
-.Link{
-    text-decoration: none;
-    color: aqua;
-    font-weight: bolder;
+.Link {
+  text-decoration: none;
+  color: aqua;
+  font-weight: bolder;
 }
-
-
-
-

@@ -1,93 +1,80 @@
-.quizz{
-    height: 80vh;
-    /* position: relative; */
+.quizz {
+  height: 80vh;
+  /* position: relative; */
 }
 
+.quizz-cont {
+  height: 100vh;
+  width: 60%;
+  background-color: aqua;
+  border-radius: 500px 0px 0px 500px;
+  position: absolute;
 
-.quizz-cont{
-    
-     height: 100vh;
-     width: 60%;
-     background-color: aqua;
-     border-radius: 500px 0px 0px 500px;
-     position: absolute;
-    
-     right: 0;
-     top: 0;
-
-     }
-
-
- 
-
-
-.op-div{
-    display: flex;
-    flex-direction: row;
-    
-    margin-bottom: 250px;
-    margin-left: 5px;
-    gap: 100px;
-}
-.option-div{
-    background-color: white;
-    border: none;
-    border-radius: 25px;
-    box-shadow: 1px black;
-    width: 1090px;
-    height: 250px;
-     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-     text-align: center;
-    
-     display: flex;
-     flex-direction: column;
-     justify-content: space-between;
-     padding-left: 20px;
-     padding-right: 20px;
-     
-     position: absolute;
-     bottom: 40px;
-     right: 250px;
-     left: 65px;
-     z-index: 100;
-     
-
-   
+  right: 0;
+  top: 0;
 }
 
-.option{
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-    background-color: white;
-    margin-top: 50px;
-    border: none;
-    border-radius: 10px;
-    height: 100px;
-    width: 195px;
-    cursor: pointer;
-    transition: 0.3s ;
-    max-width: 200px;
+.op-div {
+  display: flex;
+  flex-direction: row;
+
+  margin-bottom: 250px;
+  margin-left: 5px;
+  gap: 100px;
+}
+.option-div {
+  background-color: white;
+  border: none;
+  border-radius: 25px;
+  box-shadow: 1px black;
+  width: 1090px;
+  height: 250px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
+
+  position: absolute;
+  bottom: 40px;
+  right: 250px;
+  left: 65px;
+  z-index: 100;
 }
 
-.option:hover{
-
-    transform: scale(1.1);
-    transition: 0.3s ;
+.option {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  background-color: white;
+  margin-top: 50px;
+  border: none;
+  border-radius: 10px;
+  height: 100px;
+  width: 195px;
+  cursor: pointer;
+  transition: 0.3s;
+  max-width: 200px;
 }
 
-
-.quest{
-    color: rgb(0, 105, 105);
-    font-size: larger;
-    margin-top: 30px;
-    
+.option:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
 }
 
-.title-div{
-    margin-left: 100px;
-    margin-top: 100px;
+.quest {
+  color: rgb(0, 105, 105);
+  font-size: larger;
+  margin-top: 30px;
 }
 
-.wich-quest{
-    color: rgb(2, 172, 172);
-    font-weight:bolder;
+.title-div {
+  margin-left: 100px;
+  margin-top: 100px;
+}
+
+.wich-quest {
+  color: rgb(2, 172, 172);
+  font-weight: bolder;
 }
